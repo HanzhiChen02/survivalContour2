@@ -3,8 +3,6 @@
 **survivalContour2** is an advanced visualization toolkit for **time-dependent effect size**, **AUC**, and **decision-curve analysis** across follow-up time in survival models.  
 It extends the original *survivalContour* framework with support for machine-learning survival models and provides smooth and interpretable contour surfaces.
 
----
-
 ## Key Features
 
 ### 1. Effect-Size Contours (HR / logHR)
@@ -29,8 +27,6 @@ It extends the original *survivalContour* framework with support for machine-lea
 ### 4. Decision Curve Analysis (DCA) for Continuous Covariates
 - Contour version of net benefit
 - Supports model vs All / None / Pairwise comparison
-
----
 
 ## Installation
 
