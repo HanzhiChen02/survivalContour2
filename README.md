@@ -15,7 +15,7 @@ It extends the original *survivalContour* framework with support for machine-lea
   - Fine & Gray competing-risk models (CSC)
 
 ### 2. Time-Dependent AUC Contours
-- IPCW-adjusted AUC over:
+- Time-Dependent AUC over:
   - Time (x-axis)
   - Continuous covariate threshold (y-axis)
 - Supports Cox / RSF / XGB
