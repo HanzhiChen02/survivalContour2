@@ -1,0 +1,44 @@
+Package: survivalContour2
+Type: Package
+Title: Time-Dependent Effect Size and Performance Contour Visualization for Survival Models
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Hanzhi", "Chen",
+      email = "hac4018@med.cornell.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: 
+    Provides tools to visualize time-dependent effect size surfaces 
+    (e.g., log-hazard ratio, hazard ratio, average derivative effect), 
+    model performance metrics (e.g., C-index, AUC), and decision curve analysis 
+    across follow-up time for survival models. 
+    Supports Cox proportional hazards models, Random Survival Forests, 
+    and XGBoost-based survival models, with utilities for IPCW estimation, 
+    stratified modeling, and contour-based visualization. 
+    Designed as an extension of the original 'survivalContour' package 
+    for more flexible and machine-learning–oriented survival analysis.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    survival,
+    pec,
+    riskRegression,
+    xgboost,
+    stats,
+    doParallel,
+    foreach,
+    plotly,
+    prodlim,
+    randomForestSRC,
+    dcurves,
+    magrittr,
+    dplyr,
+    labelled,
+    readr
+Suggests:
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
