@@ -248,7 +248,7 @@ FGEffectContour <- function(
 }
 
 
-# ---------- Utility helpers (kept原样) ---------------------------------------
+# ---------- Utility helpers (kept) ---------------------------------------
 
 # Match column types of df2 to df1
 match_types <- function(df1, df2) {
