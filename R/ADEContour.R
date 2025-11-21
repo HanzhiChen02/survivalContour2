@@ -107,13 +107,13 @@ contourPart_ADE <- function(x, y, z, contCovName) {
   fig <- plot_ly(
     x = x, y = y, z = z, type = "contour",
     colorbar = list(
-      title = "Delta Survival Probability",
+      title = "ADE of ", contCovName, " on Marginal Survival Probability",
       titleside = "right"
     ),
     hovertemplate = paste(
       "At time %{x:.2f}<br>",
       contCovName, " = %{y:.2f}<br>",
-      "Delta S (per +1 in ", contCovName, ") = %{z:.4f}",
+      "Average Derivative Effect (per +1 in ", contCovName, ") = %{z:.4f}",
       "<extra></extra>"
     )
   ) |>
